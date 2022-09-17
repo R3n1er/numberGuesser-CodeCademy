@@ -45,3 +45,20 @@ const updateScore = (winner) => {
     computerScore++;
   }
 };
+
+/**
+ * 
+ Create an advanceRound() function. This function should increase the value of currentRoundNumber by 1.
+
+The purpose of this function is to be used to update the round number after each round.
+
+After completing advanceRound(), your Number Guesser game should be fully operational. You should be able to make guesses, see your or the computer score increase correctly, move to the next round, and see the correct round displayed.
+ */
+
+const advanceRound = () => currentRoundNumber++;
+
+/*
+Add functionality to check whether the user guess is between 0 and 9 and alert() the user that their number is out of range. 
+
+It’s not possible to set a number outside this range with the + and = buttons, but users can do so by typing directly in the input field.
+*/
